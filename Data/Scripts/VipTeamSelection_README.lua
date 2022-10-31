@@ -1,19 +1,13 @@
-<div align="center">
+--[[
 
-# VIP Team Selection
-
-[![Build Status](https://github.com/ManticoreGamesInc/CC-Weapon-Switcher/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-VIP-Team-Selection/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-VIP-Team-Selection?style=plastic)
-
-![Preview](/Screenshots/VipTeamSelection.png)
-
-</div>
-
-## Finding the Component
-
-This component can be found under the **CoreAcademy** account on Community Content.
-
-## Overview
+ __      _______ _____    _______                      _____      _           _   _             
+ \ \    / /_   _|  __ \  |__   __|                    / ____|    | |         | | (_)            
+  \ \  / /  | | | |__) |    | | ___  __ _ _ __ ___   | (___   ___| | ___  ___| |_ _  ___  _ __  
+   \ \/ /   | | |  ___/     | |/ _ \/ _` | '_ ` _ \   \___ \ / _ \ |/ _ \/ __| __| |/ _ \| '_ \ 
+    \  /   _| |_| |         | |  __/ (_| | | | | | |  ____) |  __/ |  __/ (__| |_| | (_) | | | |
+     \/   |_____|_|         |_|\___|\__,_|_| |_| |_| |_____/ \___|_|\___|\___|\__|_|\___/|_| |_|
+                                                                                                
+                                                                                                
 
 VIP Team Selection selects player to certain teams based if they have VIP status.
 
@@ -22,13 +16,17 @@ Players can be designated as VIP if they have a certain name or if they own a ce
 This component is designed to work with other components from Core Academy Essentials.
 Some examples are VIP Teleporter, Chat Rewards, and VIP Entrance.
 
-## Setup
+=====
+Setup
+=====
 
 1. Drag and drop the VIP Team Selection template into the Hierarchy.
 2. Open the properties of the root object and add your name to VIP Names custom property.
 3. Preview the project and check the Event Log to see if the player was assigned VIP.
 
-## How to use
+==========
+How to use
+==========
 
 The root object of this component has 6 custom properties.
 
@@ -56,3 +54,4 @@ If true, then it will check a player's wallets for NFTs and assign them VIP stat
 
 A comma-separated list of contract addresses so only specific NFTs will be searched for VIP status.
 
+]]--
